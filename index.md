@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## 정지윤의 개인 프로젝트 공간입니다.
+
+이 페이지는 정지윤의 개인 프로젝트를 소개하는 페이지입니다.
 
 You can use the [editor on GitHub](https://github.com/JUNE-29/JUNE-29.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
