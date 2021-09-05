@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
+
+body {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-size: 100%;
+}
+
+.hidden {
+  display: none;
+}
