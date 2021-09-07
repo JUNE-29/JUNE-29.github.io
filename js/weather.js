@@ -11,7 +11,6 @@ function onGeoOk(position) {
         const city = weatherGrop.querySelector("#city");
         const icon = weatherGrop.querySelector("#icon");
         city.innerText = data.name;
-        console.log(data.weather[0].icon);
         icon.src=`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
         weather.innerText = `${data.weather[0].main} / ${Math.floor(data.main.temp - 273.15)}℃`;
     });
