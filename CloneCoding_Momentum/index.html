@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form id="dDay-form">
+        <label id="dDay-massage">try adding D-day</label>
+        <span id="dDay-title"></span>
+        <span id="dDay"></span>
+        <input id="input-dDay-title"  required maxlength="15"
+        type="text" placeholder="What is day it?"/>
+        <input id="input-dDay" required type="date" placeholder="ex)2021-01-01"/>
+        <input id="dDay-submit" type="submit" value="ok">
+    </form>
+    <!--<button id="dDay-delete-btn" class="hidden" type="reset">x</button> -->
+
+    <h1 id="clock">00:00</h2>
+    <h2 id="st-massage" class="hidden">Hello, what's your name?</h2>
+    <h2 id="greeting"></h2>
+    <form id="login-form" class="hidden">
+        <input id="username" 
+        required
+        type="text" />
+    </form>
+    <form id="todo-form">
+        <input id="todo" required type="text"/>
+    </form>
+    <ul id="todo-list">
+    </ul>
+    <div id="quotes">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <img id="icon">
+        <span id="temp"></span>
+        <span id="city"></span>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src='js/weather.js'></script>
+    <script src='js/dDay.js'></script>
+</body>
+</html>

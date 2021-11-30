@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
 
 body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   font-family: "Kaisei HarunoUmi", serif;
   font-size: 100%;
+  color: white;
 }
 
 .hidden {
   display: none;
+}
+
+#clock {
+  text-align: center;
+  font-size: 100px;
 }

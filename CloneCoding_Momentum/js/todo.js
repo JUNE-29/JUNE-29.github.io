@@ -18,7 +18,6 @@ function deleteTodo(event) {
 }
 
 function listTodo(newTodo) {
-    console.log(newTodo);
     const li = document.createElement("li");
     li.id = newTodo.id;
     const span = document.createElement("span");
