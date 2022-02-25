@@ -1,0 +1,94 @@
+/* left side - folder */
+
+.photo_album__area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_album_title {
+  display: flex;
+  padding: 20px 50px 5px 10px;
+  color: var(--color--marine-blue);
+  font-weight: 700;
+}
+
+.folder_name {
+  display: flex;
+  text-align: left;
+  border-top: solid 1px var(--color--grey);
+  width: 80%;
+}
+
+.folder_name__list {
+  margin: 0;
+  padding: 10px 3px;
+}
+
+.folder_name__list li:first-child {
+  font-weight: 700;
+}
+
+.folder_name__list li i {
+  padding: 0px 5px;
+  color: var(--color--orange-yellow);
+}
+
+.folder_name__list li {
+  margin: 0;
+  padding-bottom: 3px;
+  font-size: 13px;
+}
+
+/* right side - photo board */
+
+.photo_board__container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0px 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 470px;
+  width: 520px;
+}
+
+.photo_content {
+  padding-bottom: 60px;
+}
+
+.title_info {
+  text-align: center;
+  padding: 1px 0px;
+  font-weight: 700;
+  border-top: solid 1px var(--color--light-dark-grey);
+  background-color: var(--color--light-grey);
+}
+
+.info_desc {
+  padding: 1px 0px;
+  background-color: var(--color--white-grey);
+  font-size: 13px;
+}
+
+.info_desc span {
+  margin-left: 10px;
+}
+
+.info_desc :last-child {
+  font-size: 10px;
+  padding-left: 360px;
+}
+
+.user_contents {
+  padding: 10px 0px 0px 10px;
+}
+
+.user_contents img {
+  object-fit: cover;
+  width: 300px;
+}
+
+.user_contents p {
+  width: 450px;
+}

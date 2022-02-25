@@ -1,0 +1,120 @@
+/* right side - photo board */
+
+.guestbook__container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0px 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 470px;
+  width: 520px;
+}
+
+.guestbook_board {
+  padding: 20px 20px 60px 20px;
+}
+
+.info_desc {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 0px;
+  border-top: solid 1px var(--color--light-dark-grey);
+  background-color: var(--color--light-grey);
+}
+
+.guest_info {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+}
+
+.guestbook_no {
+  padding-right: 5px;
+}
+
+.guestbook_no,
+.info_date {
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+.guest_name {
+  font-weight: 600;
+}
+
+.guest_name,
+.info_desc i {
+  font-size: 13px;
+  color: var(--color--dark-blue);
+}
+
+.info_desc i {
+  padding-left: 3px;
+}
+
+.btn_area {
+  display: flex;
+  flex: 0.5;
+  justify-content: end;
+  align-items: center;
+}
+
+.info_btn {
+  border: none;
+  font-size: 13px;
+  vertical-align: 2px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.guest_content {
+  display: flex;
+  padding-top: 20px;
+}
+
+.guestbook_profile_background_1 {
+  display: flex;
+  flex: 0.2;
+  background-image: url(img/background_sky.png);
+  background-size: cover;
+}
+
+.guestbook_profile_background_2 {
+  display: flex;
+  flex: 0.2;
+  background-image: url(img/background_city.png);
+  background-size: cover;
+}
+
+.guestbook_profile_background_3 {
+  display: flex;
+  flex: 0.2;
+  background-image: url(img/background_phone.png);
+  background-size: cover;
+}
+
+.guest_content img {
+  object-fit: cover;
+  width: 100px;
+}
+
+.guestbook_txt {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 10px;
+}
+
+/* .secret_alert {
+  display: none;
+  font-size: 13px;
+  color: var(--color--orange);
+}
+
+.secret_alert p {
+  padding: 5px;
+}
+
+.secret_alert i {
+  color: var(--color--light-red);
+} */

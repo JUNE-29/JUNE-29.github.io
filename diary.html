@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="static/font.css" />
+    <link rel="stylesheet" href="static/layout.css" />
+    <link rel="stylesheet" href="static/home.css" />
+    <link rel="stylesheet" href="static/diary.css"/>
+    <script src="https://kit.fontawesome.com/5b865e8a30.js" crossorigin="anonymous"></script>
+    <script src="static/diary.js" defer></script>
+</head>
+  <body>
+      <div class="background__pattern">
+      </div>
+      <div id="book">
+          <div class="bookcover">
+            <div class="bookdot">
+              <div class="page">
+                <!-- left side - profile -->
+                  <div class="left_side__container">
+                    <div class="count__today_total">
+                      <p class="today_total">
+                        TODAY <span class="today__count">28</span> | TOTAL <span class="total__count"> 234918 </span>
+                      </p>
+                    </div>
+                    <div class="left_side_item__container">
+                        <div class="photo_album__area">
+                            <div class="photo_album_title">
+                                DIARY
+                            </div>
+                            <div class="folder_name">
+                                <ul class="folder_name__list">
+                                    <li><i class="fa-solid fa-folder"></i></i>전체 보기</li>
+                                    <li><i class="fa-solid fa-folder-open"></i>내 이야기</li>
+                                    <li><i class="fa-solid fa-folder-open"></i>일정</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- right side - board -->
+                  <div class="right_side__container">
+                    <div class="minihompi_title__container">
+                      <div class="minihompi__title"> 「んГ己Б」Øıㄹど、ㅁŀ음ロピ으로 ㅎГ는거ㅇ℉ </div>
+                      <div class="minihompi__url">https://codemate.kr/@oh29</div>
+                    </div>
+                    <div class="minihompi_board__container">
+                        <div id="diary_board__container">
+                            <div id="diary_calendar">
+                                <table id="calendar_table">
+                                                <tr>
+                                                    <th rowspan="2" scope="row">
+                                                        <p>02.30</p>
+                                                        <p>TUE</p>
+                                                    </th>
+                                                    <td>1</td>
+                                                    <td>2</td>
+                                                    <td>3</td>
+                                                    <td>4</td>
+                                                    <td>5</td>
+                                                    <td>6</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                    <td>13</td>
+                                                    <td>14</td>
+                                                    <td>15</td>
+                                                    <td>16</td>
+                                                    <td>17</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18</td>
+                                                    <td>19</td>
+                                                    <td>20</td>
+                                                    <td>21</td>
+                                                    <td>22</td>
+                                                    <td>23</td>
+                                                    <td>24</td>
+                                                    <td>25</td>
+                                                    <td>26</td>
+                                                    <td>27</td>
+                                                    <td>28</td>
+                                                </tr>
+                                            </tbody>
+                                </table>
+                            </div>
+                            </div>
+                            <div id="diary_contents">
+                                <div class="journals">
+                                    <div class="today_journal">
+                                        <div class="info_desc">
+                                            2009.02.28 토 19:00
+                                        </div>
+                                        <div class="user_journal_content">
+                                            "잘 지내줘." <br>
+                                            "그거 뭔데." <br>
+                                            "잘 지내줘." <br>
+                                            "그거 어떻게 하는 건데." <br>
+                                        </div>
+                                    </div>
+                                    <div class="today_journal">
+                                        <div class="info_desc">
+                                            2009.02.28 토 19:00
+                                        </div>
+                                        <div class="user_journal_content">
+                                            "잘 지내줘." <br>
+                                            "그거 뭔데." <br>
+                                            "잘 지내줘." <br>
+                                            "그거 어떻게 하는 건데." <br>
+                                        </div>
+                                    </div>
+                                    <div class="today_journal">
+                                        <div class="info_desc">
+                                            2009.02.28 토 19:00
+                                        </div>
+                                        <div class="user_journal_content">
+                                            "CSS 어려워.." <br>
+                                            "그거 뭔데." <br>
+                                            "CSS 어렵다고.." <br>
+                                            "그거 어떻게 하는 건데." <br>
+                                        </div>
+                                    </div>
+                                    <div id="secret_journal">
+                                        <button id="srcret_journal_btn" >
+                                            <i class="fa-solid fa-key"></i> 오이구의 비밀일기 보기
+                                        </button>
+                                    </div>
+                                    <div id="secret_journal_box" class="today_journal">
+                                        <div class="info_desc">
+                                            <i class="fa-solid fa-moon"></i>비밀일기
+                                        </div>
+                                        <div id="secret_journal_contents" class="user_journal_content">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="menu__area">
+                    <div class="menu__list">
+                      <a href="index.html" id="home">홈</a>
+                      <a href="diary.html" id="diary">다이어리</a>
+                      <a href="photo_board.html" id="photo_board">사진첩</a>
+                      <a href="#" id="board">게시판</a>
+                      <a href="guestbook.html" id="guest_book">방명록</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </body>
+</html>
